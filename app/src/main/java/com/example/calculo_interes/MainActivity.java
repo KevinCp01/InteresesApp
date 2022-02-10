@@ -62,7 +62,8 @@ public class MainActivity extends AppCompatActivity {
         this.textCapital.setText("> Capital Incial: $" + editCapital.getText().toString());
         this.textInteres.setText("> Interés: "+ String.valueOf(interes* 100) + "%");
         this.interesMensual.setText("> Interés Mensual: $"+ String.valueOf(cInteresMensual));
-        this.interesPeriodo.setText("> Interés Total del Periodo: $"+ String.valueOf(cInteresPeriodo));
+        this.interesPeriodo.setText("> Interés Total del Periodo: $"+ String.valueOf(cInteresPeriodo)+
+                " ("+editPeriodo.getText().toString()+" meses)");
         this.pagoTotal.setText("> Total a Pagar: $"+ String.valueOf(cPagoTotal));
 
     }
